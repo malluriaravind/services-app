@@ -1,0 +1,90 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2b6e6d"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDF Download Activity"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/pdf1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PDF1 File Location"
+        android:inputType="textUri"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/pdf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PDF2 File Location"
+        android:inputType="textUri"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/pdf3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PDF3 File Location"
+        android:inputType="textUri"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/pdf4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PDF4 File Location"
+        android:inputType="textUri"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/pdf5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PDF5 File Location"
+        android:inputType="textUri"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start download"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFF00"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
